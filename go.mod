@@ -1,6 +1,6 @@
 module github.com/clementd64/x
 
-go 1.24.2
+go 1.24.0
 
 require github.com/getkin/kin-openapi v0.132.0
 
