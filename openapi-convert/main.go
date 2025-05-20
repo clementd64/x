@@ -35,7 +35,7 @@ func run() (err error) {
 		return err
 	}
 
-	outFile, err := os.OpenFile(os.Args[2], os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0644)
+	outFile, err := os.OpenFile(*out, os.O_RDWR|os.O_CREATE|os.O_TRUNC, 0644)
 	if err != nil {
 		return err
 	}
